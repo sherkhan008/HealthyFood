@@ -1,0 +1,123 @@
+.main{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30% 10%;
+    margin-bottom: -20%;
+    position: relative;
+} 
+.main h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+.main h1{
+    font-size: 70px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 6%;
+}
+.main p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.main-circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-20px;
+    right: 0%;
+    z-index: -1;
+    left:50%;
+    bottom:0;
+    background-color: #fff;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.15);
+}
+.main-image{
+    width: 50%;
+}
+.main-image img{
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    width: 100%;
+}
+
+@media(max-width:1235px){
+    .main p{
+        font-size:15px;
+    }
+    .main h1{
+        font-size: 50px;
+    }
+    .main h3{
+        font-size: 18px;
+    }
+}
+@media(max-width:990px){
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 350px;
+    }
+    .main-circle{
+        top: -45%;
+        right: 10%;
+        left: 10%;
+        bottom: 45%;
+        border-radius: 100%;
+        padding-top: 150px;
+    }
+}
+@media(max-width:750px){
+    .main-circle{
+        bottom: 55%;
+    }
+}
+@media(max-width:680px){
+    .main h1{
+        font-size: 30px;
+        margin-bottom: 2%;
+    }
+    .main h3{
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
+
+}
+@media(max-width:560px) {
+    .main {
+        margin-top: 5%;
+    }
+}
+@media(max-width:550px) {
+    .main-circle{
+        bottom: 65%;
+    }
+    .main{
+        padding-top: 300px;
+    }
+}
+
+@media(max-width:458px){
+    .main{
+        margin-top: 10%;
+    }
+}
+@media(max-width:396px){
+    .main h1{
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+    .main h3{
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+    .main{
+        margin-top: 15%;
+    }
+}

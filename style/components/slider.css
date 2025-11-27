@@ -1,0 +1,39 @@
+.slick-list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slide{
+    position: relative;
+}
+.slide-txt{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.pages {
+    position: absolute;
+    bottom: 30px;
+    left: 8%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+
+  }
+  .pages li {
+    margin: 0 25px;  
+  }
+  .pages li button {
+    width: 30px;
+    height: 80px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #71B85F;
+    border:none;
+    cursor: pointer;
+  }
+  .pages li button:hover {
+    color: #fff; 
+  }
